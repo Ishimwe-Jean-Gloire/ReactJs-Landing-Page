@@ -1,10 +1,14 @@
 import React from 'react'
-
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Foods from './components/Foods'
 function App() {
   return (
-    <>
-      <h1>My first React App</h1>
-    </>
+  <>
+   <Header/>
+   <Footer/>
+   <Foods/>
+  </>
   )
 }
 
